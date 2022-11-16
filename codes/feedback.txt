@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+     <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <style>
+          
+
+/*.container{
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}*/
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 120%;
+  width: 1px;
+  right: 7px;
+  top: 57%;
+  transform: translateY(-50%);
+  background: #707175;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: left;
+  margin-left:-20px;
+}
+.content .left-side .details i{
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color: #637480;
+  padding-left:30px;
+}
+.container .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+  padding-top:119px;
+}
+.content .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: #637480;
+  padding-right: 570px;
+}
+.right-side .input-box{
+  height: 38px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 69%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+
+.right-side .input-box textarea{
+  padding-top: 11px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #637480;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #248db2;
+}
+
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container{
+    margin: -5px 0;
+    height: 100%;
+  }
+  
+  @media (max-width: 575px)
+.header-area {
+    padding: 20px 0;
+}
+  .container .content{
+    flex-direction: column-reverse;
+  }
+  
+  
+ .container .content .left-side{
+   width: 100%;
+   flex-direction: column;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container .content .left-side::before{
+   display: none;
+ }
+ .container .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}
+
+
+      </style>
+     <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Page Title -->
+    <title>Feedback </title>
+ 
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+   </head>
+<body>
+    
+   
+       
+        <div class="header-area">
+            
+                        <div class="logo">
+                        <img src="icon.png" style="width:208px; position:absolute;">
+
+                        </div>
+<header style="padding-left:226px;">
+
+                        
+<ul class="menu">
+<li><a href="nicetry.html">Home</a></li>
+<li><a href="#">About</a></li>
+<ul>
+</ul>
+</li>
+
+<li><a href="#">Contacts</a>
+<ul>	
+<li><a href="#">Email</a></li>
+<li><a href="#">Phone</a></li>
+</ul>
+</li>
+
+<li><a href="#">Reports</a>
+<ul>
+<li><a href="#">MORD</a></li>
+<li><a href="#">MOA</a></li>
+<li><a href="#">MOWR</a></li>
+</ul>
+</li>
+
+<li><a href="#">Feedback</a></li>
+
+</ul>
+</header>
+
+                           
+                        </div>
+                    
+     
+    <div class="breadcumb-area" style="background-image: url(assets/images/bg_image_blue.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcumb-wrap">
+                        <h2 style="color:#637480; text-align:left; font-weight:900; padding-bottom: 79px;">FEEDBACK</h2>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="service-area service-area2">
+        <div class="container">
+            <div class="row">
+              
+               
+               
+            </div>
+        </div>
+    </div>
+ <div class="container">
+    <div class="content">
+      <div class="left-side">
+       
+         
+          
+          <div class="text-one"></div>
+          <div class="text-two"><br>
+        </div>
+        <br>
+        <div class="phone details">
+          <i class="" style="padding-left:79px; color:#707175;"></i>
+      
+          <div class="text-one" style="padding-left:0px;">022-98773381 </div>
+          <div class="text-two" style="padding-left:0px;">022-35119444</div>
+        </div>
+        <br>
+        <div class="mail details">
+          <i class="" style="padding-left:79px; color:#707175;"></i>
+         
+          <div class="text-one link"><a href="mailto:info@avsassociates.co.in" style="color:#637480;">atharva154@gmail.com</a></div>
+          
+        </div>
+         <br>
+         
+         
+          <div class="text-one"></div>
+          
+        
+       
+      </div>
+      <div class="right-side">
+        <div class="topic-text">YOUR FEEDBACK IS IMPORTANT TO US</div>
+       <br> <br> 
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Enter your number">
+        </div>
+        <div class="input-box">
+        <textarea rows="4" cols="50" placeholder="Enter your feedback here"></textarea>
+        </div>
+        
+        <div class="button">
+          <input type="button" value="Submit" >
+        </div>
+      </form>
+      <br>
+      <br>
+      <br>
+      <br>
+</body>
+
+</html>
